@@ -22,6 +22,25 @@
 		5767B3331936452F00254B59 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5767B3171936452F00254B59 /* CoreData.framework */; };
 		5767B33B1936452F00254B59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5767B3391936452F00254B59 /* InfoPlist.strings */; };
 		5767B33D1936452F00254B59 /* ProlificLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B33C1936452F00254B59 /* ProlificLibraryTests.m */; };
+		5767B3B41936D51100254B59 /* _Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B3B11936D51100254B59 /* _Book.m */; };
+		5767B3B51936D51100254B59 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B3B31936D51100254B59 /* Book.m */; };
+		5767B3BC1936D8D200254B59 /* PFLNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B3BB1936D8D200254B59 /* PFLNetworkHelper.m */; };
+		5767B3BF1937590600254B59 /* PFLBookHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B3BE1937590600254B59 /* PFLBookHelper.m */; };
+		5767B3C119378BDD00254B59 /* seeds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5767B3C019378BDD00254B59 /* seeds.plist */; };
+		5767B3C4193815C800254B59 /* PFLLibraryHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B3C3193815C800254B59 /* PFLLibraryHomeViewController.m */; };
+		5767B3C91938190100254B59 /* PFLHeaderTemplateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B3C81938190100254B59 /* PFLHeaderTemplateView.m */; };
+		5767B3CD1938266200254B59 /* UIColor+HexAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B3CC1938266200254B59 /* UIColor+HexAdditions.m */; };
+		5767B3D019382AF200254B59 /* PFLBookDisplayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B3CF19382AF200254B59 /* PFLBookDisplayCell.m */; };
+		5767B3D31938411300254B59 /* PFLBookDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B3D21938411300254B59 /* PFLBookDetailsViewController.m */; };
+		5767B3D61938436A00254B59 /* PFLBookDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B3D51938436A00254B59 /* PFLBookDetailsView.m */; };
+		5767B3D91938B66E00254B59 /* PFLAddBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B3D81938B66E00254B59 /* PFLAddBookViewController.m */; };
+		5767B3F8193A98FD00254B59 /* PFLBookDisplaySpringFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B3F7193A98FD00254B59 /* PFLBookDisplaySpringFlowLayout.m */; };
+		5767B3FE193AC5A600254B59 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5767B3FD193AC5A600254B59 /* FacebookSDK.framework */; };
+		5767B401193BA00700254B59 /* PFLFacebookHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B400193BA00700254B59 /* PFLFacebookHelper.m */; };
+		5767B405193BA8FB00254B59 /* PFLBookConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B404193BA8FB00254B59 /* PFLBookConstants.m */; };
+		5767B408193BB2C800254B59 /* PFLAssetNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B407193BB2C800254B59 /* PFLAssetNames.m */; };
+		5767B40B193BB6E600254B59 /* PFLFontNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 5767B40A193BB6E600254B59 /* PFLFontNames.m */; };
+		8DBBDA48EDC94DFEBF64B366 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BBC723003E4B709AC7E827 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +72,42 @@
 		5767B3381936452F00254B59 /* ProlificLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProlificLibraryTests-Info.plist"; sourceTree = "<group>"; };
 		5767B33A1936452F00254B59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5767B33C1936452F00254B59 /* ProlificLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProlificLibraryTests.m; sourceTree = "<group>"; };
+		5767B3B01936D51100254B59 /* _Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Book.h; sourceTree = "<group>"; };
+		5767B3B11936D51100254B59 /* _Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Book.m; sourceTree = "<group>"; };
+		5767B3B21936D51100254B59 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		5767B3B31936D51100254B59 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		5767B3BA1936D8D200254B59 /* PFLNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLNetworkHelper.h; sourceTree = "<group>"; };
+		5767B3BB1936D8D200254B59 /* PFLNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLNetworkHelper.m; sourceTree = "<group>"; };
+		5767B3BD1937590600254B59 /* PFLBookHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLBookHelper.h; sourceTree = "<group>"; };
+		5767B3BE1937590600254B59 /* PFLBookHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLBookHelper.m; sourceTree = "<group>"; };
+		5767B3C019378BDD00254B59 /* seeds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = seeds.plist; sourceTree = "<group>"; };
+		5767B3C2193815C800254B59 /* PFLLibraryHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PFLLibraryHomeViewController.h; path = ../PFLLibraryHomeViewController.h; sourceTree = "<group>"; };
+		5767B3C3193815C800254B59 /* PFLLibraryHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PFLLibraryHomeViewController.m; path = ../PFLLibraryHomeViewController.m; sourceTree = "<group>"; };
+		5767B3C71938190100254B59 /* PFLHeaderTemplateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLHeaderTemplateView.h; sourceTree = "<group>"; };
+		5767B3C81938190100254B59 /* PFLHeaderTemplateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLHeaderTemplateView.m; sourceTree = "<group>"; };
+		5767B3CB1938266200254B59 /* UIColor+HexAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexAdditions.h"; sourceTree = "<group>"; };
+		5767B3CC1938266200254B59 /* UIColor+HexAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexAdditions.m"; sourceTree = "<group>"; };
+		5767B3CE19382AF200254B59 /* PFLBookDisplayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLBookDisplayCell.h; sourceTree = "<group>"; };
+		5767B3CF19382AF200254B59 /* PFLBookDisplayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLBookDisplayCell.m; sourceTree = "<group>"; };
+		5767B3D11938411300254B59 /* PFLBookDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLBookDetailsViewController.h; sourceTree = "<group>"; };
+		5767B3D21938411300254B59 /* PFLBookDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLBookDetailsViewController.m; sourceTree = "<group>"; };
+		5767B3D41938436A00254B59 /* PFLBookDetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLBookDetailsView.h; sourceTree = "<group>"; };
+		5767B3D51938436A00254B59 /* PFLBookDetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLBookDetailsView.m; sourceTree = "<group>"; };
+		5767B3D71938B66E00254B59 /* PFLAddBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLAddBookViewController.h; sourceTree = "<group>"; };
+		5767B3D81938B66E00254B59 /* PFLAddBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLAddBookViewController.m; sourceTree = "<group>"; };
+		5767B3F6193A98FD00254B59 /* PFLBookDisplaySpringFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLBookDisplaySpringFlowLayout.h; sourceTree = "<group>"; };
+		5767B3F7193A98FD00254B59 /* PFLBookDisplaySpringFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLBookDisplaySpringFlowLayout.m; sourceTree = "<group>"; };
+		5767B3FD193AC5A600254B59 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		5767B3FF193BA00700254B59 /* PFLFacebookHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLFacebookHelper.h; sourceTree = "<group>"; };
+		5767B400193BA00700254B59 /* PFLFacebookHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLFacebookHelper.m; sourceTree = "<group>"; };
+		5767B403193BA8FB00254B59 /* PFLBookConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLBookConstants.h; sourceTree = "<group>"; };
+		5767B404193BA8FB00254B59 /* PFLBookConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLBookConstants.m; sourceTree = "<group>"; };
+		5767B406193BB2C800254B59 /* PFLAssetNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLAssetNames.h; sourceTree = "<group>"; };
+		5767B407193BB2C800254B59 /* PFLAssetNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLAssetNames.m; sourceTree = "<group>"; };
+		5767B409193BB6E600254B59 /* PFLFontNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLFontNames.h; sourceTree = "<group>"; };
+		5767B40A193BB6E600254B59 /* PFLFontNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLFontNames.m; sourceTree = "<group>"; };
+		76BBC723003E4B709AC7E827 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34D6C383C49472B92896B78 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +119,8 @@
 				5767B3181936452F00254B59 /* CoreData.framework in Frameworks */,
 				5767B3161936452F00254B59 /* UIKit.framework in Frameworks */,
 				5767B3121936452F00254B59 /* Foundation.framework in Frameworks */,
+				8DBBDA48EDC94DFEBF64B366 /* libPods.a in Frameworks */,
+				5767B3FE193AC5A600254B59 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +145,7 @@
 				5767B3361936452F00254B59 /* ProlificLibraryTests */,
 				5767B3101936452F00254B59 /* Frameworks */,
 				5767B30F1936452F00254B59 /* Products */,
+				E34D6C383C49472B92896B78 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +161,13 @@
 		5767B3101936452F00254B59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5767B3FC193AC5A600254B59 /* FacebookFramework */,
 				5767B3111936452F00254B59 /* Foundation.framework */,
 				5767B3131936452F00254B59 /* CoreGraphics.framework */,
 				5767B3151936452F00254B59 /* UIKit.framework */,
 				5767B3171936452F00254B59 /* CoreData.framework */,
 				5767B32F1936452F00254B59 /* XCTest.framework */,
+				76BBC723003E4B709AC7E827 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +175,13 @@
 		5767B3191936452F00254B59 /* ProlificLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				5767B402193BA8D400254B59 /* Constants */,
+				5767B3F5193A98CA00254B59 /* FlowLayouts */,
+				5767B3CA1938266200254B59 /* Categories */,
+				5767B3C51938182B00254B59 /* Controllers */,
+				5767B3C61938182B00254B59 /* Views */,
+				5767B3B91936D64100254B59 /* Helpers */,
+				5767B3AF1936D51100254B59 /* Models */,
 				5767B3221936452F00254B59 /* PFLAppDelegate.h */,
 				5767B3231936452F00254B59 /* PFLAppDelegate.m */,
 				5767B3281936452F00254B59 /* Images.xcassets */,
@@ -127,6 +194,7 @@
 		5767B31A1936452F00254B59 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5767B3C019378BDD00254B59 /* seeds.plist */,
 				5767B31B1936452F00254B59 /* ProlificLibrary-Info.plist */,
 				5767B31C1936452F00254B59 /* InfoPlist.strings */,
 				5767B31F1936452F00254B59 /* main.m */,
@@ -153,6 +221,95 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5767B3AF1936D51100254B59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5767B3B01936D51100254B59 /* _Book.h */,
+				5767B3B11936D51100254B59 /* _Book.m */,
+				5767B3B21936D51100254B59 /* Book.h */,
+				5767B3B31936D51100254B59 /* Book.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5767B3B91936D64100254B59 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5767B3BA1936D8D200254B59 /* PFLNetworkHelper.h */,
+				5767B3BB1936D8D200254B59 /* PFLNetworkHelper.m */,
+				5767B3BD1937590600254B59 /* PFLBookHelper.h */,
+				5767B3BE1937590600254B59 /* PFLBookHelper.m */,
+				5767B3FF193BA00700254B59 /* PFLFacebookHelper.h */,
+				5767B400193BA00700254B59 /* PFLFacebookHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5767B3C51938182B00254B59 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5767B3C2193815C800254B59 /* PFLLibraryHomeViewController.h */,
+				5767B3C3193815C800254B59 /* PFLLibraryHomeViewController.m */,
+				5767B3D11938411300254B59 /* PFLBookDetailsViewController.h */,
+				5767B3D21938411300254B59 /* PFLBookDetailsViewController.m */,
+				5767B3D71938B66E00254B59 /* PFLAddBookViewController.h */,
+				5767B3D81938B66E00254B59 /* PFLAddBookViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5767B3C61938182B00254B59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5767B3C71938190100254B59 /* PFLHeaderTemplateView.h */,
+				5767B3C81938190100254B59 /* PFLHeaderTemplateView.m */,
+				5767B3CE19382AF200254B59 /* PFLBookDisplayCell.h */,
+				5767B3CF19382AF200254B59 /* PFLBookDisplayCell.m */,
+				5767B3D41938436A00254B59 /* PFLBookDetailsView.h */,
+				5767B3D51938436A00254B59 /* PFLBookDetailsView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5767B3CA1938266200254B59 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5767B3CB1938266200254B59 /* UIColor+HexAdditions.h */,
+				5767B3CC1938266200254B59 /* UIColor+HexAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5767B3F5193A98CA00254B59 /* FlowLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				5767B3F6193A98FD00254B59 /* PFLBookDisplaySpringFlowLayout.h */,
+				5767B3F7193A98FD00254B59 /* PFLBookDisplaySpringFlowLayout.m */,
+			);
+			path = FlowLayouts;
+			sourceTree = "<group>";
+		};
+		5767B3FC193AC5A600254B59 /* FacebookFramework */ = {
+			isa = PBXGroup;
+			children = (
+				5767B3FD193AC5A600254B59 /* FacebookSDK.framework */,
+			);
+			path = FacebookFramework;
+			sourceTree = "<group>";
+		};
+		5767B402193BA8D400254B59 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5767B403193BA8FB00254B59 /* PFLBookConstants.h */,
+				5767B404193BA8FB00254B59 /* PFLBookConstants.m */,
+				5767B406193BB2C800254B59 /* PFLAssetNames.h */,
+				5767B407193BB2C800254B59 /* PFLAssetNames.m */,
+				5767B409193BB6E600254B59 /* PFLFontNames.h */,
+				5767B40A193BB6E600254B59 /* PFLFontNames.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +317,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5767B3401936452F00254B59 /* Build configuration list for PBXNativeTarget "ProlificLibrary" */;
 			buildPhases = (
+				A7C2B606F98045DD9D4C37BC /* Check Pods Manifest.lock */,
 				5767B30A1936452E00254B59 /* Sources */,
 				5767B30B1936452E00254B59 /* Frameworks */,
 				5767B30C1936452E00254B59 /* Resources */,
+				A795935FFB784ADE9704053F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +390,7 @@
 			files = (
 				5767B31E1936452F00254B59 /* InfoPlist.strings in Resources */,
 				5767B3291936452F00254B59 /* Images.xcassets in Resources */,
+				5767B3C119378BDD00254B59 /* seeds.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +404,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A795935FFB784ADE9704053F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C2B606F98045DD9D4C37BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5767B30A1936452E00254B59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5767B3D019382AF200254B59 /* PFLBookDisplayCell.m in Sources */,
+				5767B3F8193A98FD00254B59 /* PFLBookDisplaySpringFlowLayout.m in Sources */,
+				5767B3D61938436A00254B59 /* PFLBookDetailsView.m in Sources */,
+				5767B3D91938B66E00254B59 /* PFLAddBookViewController.m in Sources */,
+				5767B3B51936D51100254B59 /* Book.m in Sources */,
+				5767B40B193BB6E600254B59 /* PFLFontNames.m in Sources */,
+				5767B3B41936D51100254B59 /* _Book.m in Sources */,
+				5767B3BC1936D8D200254B59 /* PFLNetworkHelper.m in Sources */,
 				5767B3201936452F00254B59 /* main.m in Sources */,
+				5767B3C4193815C800254B59 /* PFLLibraryHomeViewController.m in Sources */,
 				5767B3271936452F00254B59 /* ProlificLibrary.xcdatamodeld in Sources */,
+				5767B401193BA00700254B59 /* PFLFacebookHelper.m in Sources */,
+				5767B3D31938411300254B59 /* PFLBookDetailsViewController.m in Sources */,
+				5767B408193BB2C800254B59 /* PFLAssetNames.m in Sources */,
 				5767B3241936452F00254B59 /* PFLAppDelegate.m in Sources */,
+				5767B3CD1938266200254B59 /* UIColor+HexAdditions.m in Sources */,
+				5767B405193BA8FB00254B59 /* PFLBookConstants.m in Sources */,
+				5767B3C91938190100254B59 /* PFLHeaderTemplateView.m in Sources */,
+				5767B3BF1937590600254B59 /* PFLBookHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,9 +574,14 @@
 		};
 		5767B3411936452F00254B59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34D6C383C49472B92896B78 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookFramework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProlificLibrary/ProlificLibrary-Prefix.pch";
 				INFOPLIST_FILE = "ProlificLibrary/ProlificLibrary-Info.plist";
@@ -378,9 +592,14 @@
 		};
 		5767B3421936452F00254B59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34D6C383C49472B92896B78 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookFramework",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProlificLibrary/ProlificLibrary-Prefix.pch";
 				INFOPLIST_FILE = "ProlificLibrary/ProlificLibrary-Info.plist";
@@ -448,6 +667,7 @@
 				5767B3421936452F00254B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5767B3431936452F00254B59 /* Build configuration list for PBXNativeTarget "ProlificLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +676,7 @@
 				5767B3451936452F00254B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

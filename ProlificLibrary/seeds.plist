@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>Erica Sadun</string>
+		<key>bookID</key>
+		<integer>1</integer>
+		<key>categories</key>
+		<string>ios</string>
+		<key>title</key>
+		<string>The Core iOS 6 Developer's Cookbook</string>
+	</dict>
+	<dict>
+		<key>author</key>
+		<string>Joe Conway and Aaron Hillegass</string>
+		<key>bookID</key>
+		<integer>2</integer>
+		<key>categories</key>
+		<string>big nerd ranch, ios</string>
+		<key>publisher</key>
+		<string>Big Nerd Ranch</string>
+		<key>title</key>
+		<string>iOS Programming: The Big Nerd Ranch Guide</string>
+	</dict>
+	<dict>
+		<key>author</key>
+		<string>Jeff LaMarche and Dave Mark</string>
+		<key>bookID</key>
+		<string>3</string>
+		<key>categories</key>
+		<string>ios,beginner</string>
+		<key>publisher</key>
+		<string>Apress</string>
+		<key>title</key>
+		<string>Beginning iPhone Development</string>
+	</dict>
+</array>
+</plist>

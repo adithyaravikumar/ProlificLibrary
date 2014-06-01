@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Mogenerator.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>ProlificLibrary.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>5767B32D1936452F00254B59</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5767B3AA1936D3A800254B59</key>
 		<dict>
 			<key>primary</key>
 			<true/>

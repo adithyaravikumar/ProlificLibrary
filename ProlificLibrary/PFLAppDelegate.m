@@ -6,7 +6,16 @@
 //  Copyright (c) 2014 ProlificLibrary. All rights reserved.
 //
 
+#import <FacebookSDK/FacebookSDK.h>
 #import "PFLAppDelegate.h"
+#import "PFLLibraryHomeViewController.h"
+#import "PFLBookDisplaySpringFlowLayout.h"
+
+@interface PFLAppDelegate()
+
+@property (nonatomic, strong)UINavigationController *navigationController;
+
+@end
 
 @implementation PFLAppDelegate
 
@@ -16,10 +25,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    //Setup the flow layout
+    PFLBookDisplaySpringFlowLayout *layout=[[PFLBookDisplaySpringFlowLayout alloc] init];
+    
+    //Setup the root view controller
+    PFLLibraryHomeViewController *homeViewController = [[PFLLibraryHomeViewController alloc] initWithCollectionViewLayout:layout];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:homeViewController];
+    [self.navigationController setNavigationBarHidden:YES];
+    [self.window setRootViewController:self.navigationController];
+    
     return YES;
 }
 
@@ -144,6 +164,17 @@
 - (NSURL *)applicationDocumentsDirectory
 {
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+}
+
+#pragma mark - Facebook Specific Handler
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    // attempt to extract a token from the url
+    return [FBAppCall handleOpenURL:url
+                  sourceApplication:sourceApplication
+                    fallbackHandler:^(FBAppCall *call) {
+                        NSLog(@"In fallback handler");
+                    }];
 }
 
 @end
