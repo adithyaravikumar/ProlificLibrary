@@ -165,7 +165,6 @@
     }
     else
     {
-        PFLBookDetailsViewController *__weak weakSelf = self;
         UIActivityIndicatorView *__block spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
         spinner.center = CGPointMake(self.view.center.x, self.view.frame.size.height - 100);
         spinner.hidesWhenStopped = YES;
@@ -174,8 +173,14 @@
         [self.bookHelper checkoutBook:self.book.title
                                 atURL:self.book.bookUrl
                          withUserName:userName withCompletionBlock:^(BOOL done) {
+                             UIAlertView *alert = [[UIAlertView alloc]
+                                                   initWithTitle: @"Checkout Successful"
+                                                   message: @"Your book was checked out!"
+                                                   delegate: self
+                                                   cancelButtonTitle:@"OK"
+                                                   otherButtonTitles:nil];
+                             [alert show];
                              [spinner stopAnimating];
-                             [weakSelf.navigationController popToRootViewControllerAnimated:YES];
                          }];
     }
 }
@@ -198,6 +203,14 @@
 - (BOOL)textFieldShouldEndEditing:(UITextField *)textField
 {
     return YES;
+}
+
+
+#pragma mark - AlertView Delegate
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 @end

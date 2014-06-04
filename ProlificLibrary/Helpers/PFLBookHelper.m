@@ -61,7 +61,10 @@ static NSString *books = @"books";
             }
             completionBlock(YES);
         }
-        completionBlock(NO);
+        else
+        {
+            completionBlock(NO);
+        }
     }];
 }
 
@@ -72,7 +75,10 @@ static NSString *books = @"books";
             [Book deleteAll];
             completionBlock(YES);
         }
-        completionBlock(NO);
+        else
+        {
+            completionBlock(NO);
+        }
     }];
 }
 
@@ -91,7 +97,10 @@ static NSString *books = @"books";
             [book save];
             completionBlock(YES);
         }
-        completionBlock(NO);
+        else
+        {
+            completionBlock(NO);
+        }
     }];
 }
 
@@ -119,7 +128,10 @@ static NSString *books = @"books";
             [book save];
             completionBlock(YES);
         }
-        completionBlock(NO);
+        else
+        {
+            completionBlock(NO);
+        }
     }];
 }
 
